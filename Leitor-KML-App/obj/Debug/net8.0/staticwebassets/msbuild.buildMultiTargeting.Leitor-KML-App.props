@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Leitor-KML-App.props" />
+</Project>

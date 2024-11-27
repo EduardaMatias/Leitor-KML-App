@@ -1,0 +1,84 @@
+[
+  {
+    "ContainingType": "Leitor_KML_App.Controllers.PlacemarksController",
+    "Method": "Get",
+    "RelativePath": "api/placemarks",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Cliente",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Situacao",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Bairro",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Referencia",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Rua",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Leitor_KML_App.Controllers.PlacemarksController",
+    "Method": "Post",
+    "RelativePath": "api/placemarks/export",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Cliente",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Situacao",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Bairro",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Referencia",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Rua",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Leitor_KML_App.Controllers.PlacemarksController",
+    "Method": "GetFilters",
+    "RelativePath": "api/placemarks/filters",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
